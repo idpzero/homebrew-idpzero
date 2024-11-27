@@ -1,7 +1,7 @@
 class Idpzero < Formula
   desc "Local IdP for development and testing purposes"
   homepage "https://idpzero.dev"
-  url "https://github.com/idpzero/idpzero/refs/tags/v0.1.0"
+  url "https://github.com/idpzero/idpzero/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "d04494663687485a0308e61c9ed93692edb1cb8c075db49a35f3d98707be0c4b"
   license "MIT"
 
