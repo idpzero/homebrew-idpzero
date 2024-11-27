@@ -1,4 +1,4 @@
-# Idpzero Idpzero
+# Idpzero Homebrew
 
 ## How do I install these formulae?
 
