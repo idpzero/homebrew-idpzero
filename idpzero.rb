@@ -5,20 +5,20 @@
 class Idpzero < Formula
   desc "Single binary Identity Provider (IDP) for local dev/test"
   homepage "https://idpzero.dev"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/idpzero/idpzero/releases/download/v0.1.0/idpzero_Darwin_x86_64.tar.gz"
-      sha256 "22ecb36644e38de31cc2695acf3b751e6765ae7a28d86c60095b4b0c7ea1c6c4"
+      url "https://github.com/idpzero/idpzero/releases/download/v0.1.1/idpzero_Darwin_x86_64.tar.gz"
+      sha256 "8e7a0066d4e1287c490c16b59c6f845603e601747f8800769623f28eb11330a6"
 
       def install
         bin.install "idpzero"
       end
     end
     on_arm do
-      url "https://github.com/idpzero/idpzero/releases/download/v0.1.0/idpzero_Darwin_arm64.tar.gz"
-      sha256 "dbad3feaf913aacc730633d8572bed14d5f2fd9ba5d49e619d90c84e7ea7dd9f"
+      url "https://github.com/idpzero/idpzero/releases/download/v0.1.1/idpzero_Darwin_arm64.tar.gz"
+      sha256 "d87bc71c5ec5e3453fe35e942bdbfad6e7dee0c7c45ec8d54bb9177580269c08"
 
       def install
         bin.install "idpzero"
@@ -29,8 +29,8 @@ class Idpzero < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/idpzero/idpzero/releases/download/v0.1.0/idpzero_Linux_x86_64.tar.gz"
-        sha256 "e348f2117a37ef2d7f1cc24d9f7d0b8b38a2ff72c61dd6e53c9035d8925abe1b"
+        url "https://github.com/idpzero/idpzero/releases/download/v0.1.1/idpzero_Linux_x86_64.tar.gz"
+        sha256 "3898074bdb660e060742b53656ceab356c85074d42f61ab8b0f251f07d2b6b5f"
 
         def install
           bin.install "idpzero"
@@ -39,8 +39,8 @@ class Idpzero < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/idpzero/idpzero/releases/download/v0.1.0/idpzero_Linux_arm64.tar.gz"
-        sha256 "ff0765d9cac6af632306f71bdefde7cf347d0111bb4f70a1330bba4cc58f9a2c"
+        url "https://github.com/idpzero/idpzero/releases/download/v0.1.1/idpzero_Linux_arm64.tar.gz"
+        sha256 "da87d6311d281f6fb98ac0888b8462539604930e1bdc8c1c05300d0b7ad40a54"
 
         def install
           bin.install "idpzero"
